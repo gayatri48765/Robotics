@@ -1,0 +1,61 @@
+    1  exit
+    2  ls
+    3  xeyes
+    4  terminator
+    5  echo $DISPLAY
+    6  history
+    7  ros 
+    8  export DISPLAY=host.docker.internal:0.0
+    9  terminator
+   10  xhost +local:docker
+   11  export DISPLAY=192.168.56.1:0.0
+   12  terminator
+   13  ls
+   14  exit
+   15  terminator
+   16  export DISPLAY=169.254.55.149:0.0
+   17  terminator
+   18  ls
+   19  cd ~/
+   20  ls
+   21  cd //
+   22  cd ..
+   23  cd ~/
+   24  cd ..
+   25  ls
+   26  cd home/
+   27  ls
+   28  cd ~/
+   29  ls
+   30  cd catkin_ws/
+   31  ls
+   32  catkin_make
+   33  cd ~
+   34  ls
+   35  cd catkin_ws/
+   36  ls
+   37  cd src/
+   38  ls
+   39  sudo apt-get git
+   40  sudo apt-get install git
+   41  git
+   42  ls
+   43  git pull https://github.com/ros/urdf_tutorial.git
+   44  git pull https://github.com/ros/urdf_tutorial
+   45  cd ~
+   46  ls
+   47  cd workspace/src/urdf_tutorial/launch/display_fetch.launch 
+   48  cat  workspace/src/urdf_tutorial/launch/display_fetch.launch 
+   49  cd ls
+   50  ls
+   51  cd workspace
+   52  ls
+   53  rosrun joint_state_publisher_gui joint_state_publisher_gui
+   54  source /opt/ros/noetic/setup.bash
+   55  source ~/workspace/devel/setup.bash
+   56  rosrun joint_state_publisher_gui joint_state_publisher_gui
+   57  cd ../
+   58  ls
+   59  cd code
+   60  ls
+   61  history > history2.txt

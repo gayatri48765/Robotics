@@ -1,0 +1,2 @@
+fetch_ros/fetch_calibration:fetch_ros/fetch_depth_layer:fetch_ros/fetch_description:fetch_ros/fetch_ikfast_plugin:fetch_ros/fetch_maps:fetch_ros/fetch_moveit_config:fetch_ros/fetch_navigation:fetch_ros/fetch_ros:fetch_ros/fetch_teleop:urdf_tutorial
+-DCATKIN_DEVEL_PREFIX=/root/workspace/devel -DCMAKE_INSTALL_PREFIX=/root/workspace/install -G Unix Makefiles
